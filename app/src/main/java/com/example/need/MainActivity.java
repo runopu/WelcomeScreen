@@ -1,5 +1,6 @@
 package com.example.need;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -23,7 +24,10 @@ public class MainActivity extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
-                    mTextMessage.setText(R.string.title_home);
+                    Intent homeIntent=new Intent(MainActivity.this,HomeActivity.class);
+                    startActivity(homeIntent);
+                    finish();
+                    //mTextMessage.setText(R.string.title_home);
                     return true;
                 case R.id.navigation_dashboard:
                     mTextMessage.setText(R.string.title_dashboard);

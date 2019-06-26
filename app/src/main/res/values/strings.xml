@@ -2,7 +2,7 @@
     <string name="app_name">Need</string>
 
     <string name="dummy_button">Welcome</string>
-    <string name="dummy_content">Welcome to the need world!</string>
+    <string name="dummy_content">Welcome! </string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
