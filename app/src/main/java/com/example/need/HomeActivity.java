@@ -15,26 +15,10 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
     }
 
-
     @Override
     public void onBackPressed() {
         Intent mainIntent=new Intent(HomeActivity.this,MainActivity.class);
         startActivity(mainIntent);
         finish();
     }
-    //    @Override
-//    public void onBackPressed() {
-//
-//        if (backPressedTime+2000>System.currentTimeMillis())
-//        {
-//            backToast.cancel();
-//            super.onBackPressed();
-//        }
-//        else
-//        {
-//            backToast=Toast.makeText(getBaseContext(), "Press back again to exit", Toast.LENGTH_SHORT);
-//            backToast.show();
-//        }
-//        backPressedTime=System.currentTimeMillis();
-//    }
 }
