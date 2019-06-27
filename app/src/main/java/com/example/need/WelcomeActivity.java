@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.ProgressBar;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -19,6 +20,8 @@ public class WelcomeActivity extends AppCompatActivity {
     // Splash Screen
 
     private static int SPLASH_TIME_OUT=5000;
+
+    private ProgressBar progressBar;
 
 
     /**
@@ -100,6 +103,9 @@ public class WelcomeActivity extends AppCompatActivity {
         mVisible = true;
         mControlsView = findViewById(R.id.fullscreen_content_controls);
         mContentView = findViewById(R.id.fullscreen_content);
+        progressBar=findViewById(R.id.progressbar);
+
+        progressBar.setVisibility(View.VISIBLE);
 
 
         // Set up the user interaction to manually show or hide the system UI.

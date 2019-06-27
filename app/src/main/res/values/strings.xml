@@ -2,7 +2,7 @@
     <string name="app_name">আমার রান্না ঘর</string>
 
     <string name="dummy_button">Welcome</string>
-    <string name="dummy_content">Welcome! </string>
+    <string name="dummy_content">স্বাগতম রান্না ঘর ! </string>
     <string name="title_activity_main">হোম</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
